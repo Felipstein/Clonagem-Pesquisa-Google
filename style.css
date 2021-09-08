@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000de;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100%;
+    user-select: none;
+}
+
+header .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 28px;
+    margin-top: 15px;
+}
+
+header .options nav a {
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+header .options .account-and-settings {
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+    margin-left: 25px;
+}
+
+header .options .account-and-settings .options-icon-container {
+    margin-right: 25px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+header .options .account-and-settings .options-icon-container:hover {
+    background-color: rgba(50, 50, 50, .08);
+    transform: rotate(90deg);
+    transition: .3s;
+}
+
+header .options .account-and-settings .options-icon-container:active {
+    background-color: rgba(50, 50, 50, .1);
+}
+
+header .options .account-and-settings #options-icon {
+    color: rgb(100, 100, 100);
+}
+
+header .options .account-and-settings .avatar-container {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .options .account-and-settings .avatar-container:hover {
+    background-color: rgba(50, 50, 50, .08);
+}
+
+header .options .account-and-settings .avatar-container:active {
+    background-color: rgba(50, 50, 50, .1);
+}
+
+header .options .account-and-settings #avatar {
+    border-radius: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+main .search-box {
+    border: 1px solid #ddd;
+    width: 584px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+}
+
+main .search-box:hover {
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, .28);
+}
+
+main .search-box #search-icon {
+    font-size: 14px;
+    color: rgb(154, 160, 166);
+    margin-right: 8px;
+}
+
+main .search-box input {
+    padding: 5px 8px;
+    border: none;
+    font-size: 16px;
+    width: 69.5%;
+    color: rgb(40, 40, 40);
+}
+
+main .search-box input:focus {
+    outline-width: 0;
+}
+
+main .search-box #clear-icon, #keyboard-icon, #microphone-icon {
+    cursor: pointer;
+}
+
+main .search-box .clear-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .search-box #clear-icon {
+    font-size: 26px;
+    color: rgb(112, 117, 122);
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+main .search-box #separator {
+    border-left: 1px solid rgb(223, 225, 229);
+    height: 28.59px;
+    margin-right: 20px;
+}
+
+main .search-box #keyboard-icon {
+    color: rgb(100, 104, 109);
+    font-size: 18px;
+}
+
+main .search-box #microphone-icon {
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+main .buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+main .buttons .main-button {
+    background-color: #f8f9fa;
+    padding: 0 16px;
+    width: 140.64px;
+    height: 36px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 64, 67);
+    border: none;
+    border-radius: 5px;
+}
+
+main .buttons .main-button:hover {
+    border: 1px solid #ddd;
+    box-shadow: 0px 1px 2px rgba(32, 33, 36, .28);
+    color: #000000f4;
+}
+
+main .buttons .main-button:active {
+    border: 1px solid rgb(66, 133, 244);
+}
+
+main p {
+    color: rgb(60, 64, 67);
+    font-size: 13px;
+}
+
+main p a {
+    color: #1a0dab;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .bar-footer {
+    color: #0000008a;
+    font-size: 15px;
+    background-color: rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    padding: 15px 30px;
+}
+
+footer #bottom-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #bottom-footer a {
+    font-size: inherit;
+}
+
+footer #bottom-footer .left-container a {
+    margin-right: 30px;
+}
+
+footer #bottom-footer .right-container a {
+    margin-left: 30px;
+}

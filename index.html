@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="options">
+            <nav>
+                <a href="https://mail.google.com/">Gmail</a>
+                <a href="https://www.google.com.br/imghp?hl=pt-BR&authuser=0&ogbl">Imagens</a>
+            </nav>
+            <div class="account-and-settings">
+                <div class="options-icon-container">
+                    <i class="fas fa-bars" id="options-icon"></i>
+                </div>
+                <div class="avatar-container">
+                    <img src="img/profile.jpg" alt="Avatar Profile" width="32px" height="32px" id="avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo Google" width="391px" height="220.16px">
+        </div>
+        <div class="search-box">
+            <i class="fas fa-search" id="search-icon"></i>
+            <input type="text">
+            <div class="clear-container">
+                <i class="fas fa-times" id="clear-icon" onclick="clearTextBox()"></i>
+                <div id="separator"></div>
+            </div>
+            <i class="fas fa-keyboard" id="keyboard-icon"></i>
+            <i class="fas fa-microphone" id="microphone-icon"></i>
+        </div>
+        <div class="buttons">
+            <button class="main-button" id="search">Pesquisa Google</button>
+            <button class="main-button" id="i-have-lucky">Estou com sorte</button>
+        </div>
+        <p>
+            Disponibilizado pelo Google em: <a href="">English</a>
+        </p>
+    </main>
+
+    <footer>
+        <div class="bar-footer" id="top-footer">
+            <p>Brasil</p>
+        </div>
+        <div class="bar-footer" id="bottom-footer">
+            <div class="left-container">
+                <a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre</a>
+                <a href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000080-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidade</a>
+                <a href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/help/#!/">Negócios</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
+            </div>
+            <div class="right-container">
+                <a href="https://policies.google.com/privacy?hl=pt-BR&fg=1">Privacidade</a>
+                <a href="https://policies.google.com/terms?hl=pt-BR&fg=1">Termos</a>
+                <a href="https://www.google.com.br/preferences?hl=pt-BR&fg=1">Configurações</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/190ff98b62.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
